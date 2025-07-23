@@ -71,6 +71,15 @@
             height: 16px;
             margin-right: 0.5rem;
         }
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] .arrow-down {
+            transform: rotate(180deg);
+        }
     </style>
 </head>
 <body class="text-gray-800">
@@ -112,6 +121,47 @@
                         <div class="bg-gray-50 p-4 rounded-lg">
                             <h4 class="font-semibold mb-1">4. Rehearse & Pressure Test</h4>
                             <p class="text-gray-600">Conduct a dry run with a friendly audience, then a "Red Team" session with tough questions. Time your pitch to 15-20 mins.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- NEW SECTION: Must-Say Checklist -->
+            <div class="timeline-item">
+                <div class="timeline-line"></div>
+                <div class="timeline-icon bg-amber-500 text-white"><i data-lucide="star" class="w-4 h-4"></i></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">The 'Must-Say' Checklist</h2>
+                <div class="playbook-card p-6">
+                    <h3 class="font-bold text-lg mb-2">Core Messages to Land</h3>
+                    <p class="text-gray-600 mb-6">These are the non-negotiable concepts that must be woven throughout your pitch. They are your core narrative anchors.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-amber-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-semibold">"We are a network of networks, not another competitor."</h4>
+                                <p class="text-gray-600 text-sm"><strong>Why it's a must-say:</strong> This immediately diffuses concerns about competing for scarce resources or members. It positions GAIN as a collaborative leader and an ecosystem builder.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-amber-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-semibold">"Our ROI is a Return on Impact."</h4>
+                                <p class="text-gray-600 text-sm"><strong>Why it's a must-say:</strong> This directly addresses the financial question for a non-profit. It reframes the conversation from financial return to measurable impact on human capital, innovation, and community resilience.</p>
+                            </div>
+                        </div>
+                         <div class="flex items-start">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-amber-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-semibold">"We are starting with a prudent, data-driven MVP to mitigate risk."</h4>
+                                <p class="text-gray-600 text-sm"><strong>Why it's a must-say:</strong> This demonstrates fiscal responsibility and strategic foresight. It shows the board you are not asking for a blank check but for a calculated investment in learning and validation.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-amber-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-semibold">"Our long-term advantage is our Competitive Moat, built on trust and network effects."</h4>
+                                <p class="text-gray-600 text-sm"><strong>Why it's a must-say:</strong> This shows you have a plan for long-term sustainability and defensibility. It proves that GAIN is not just a project but an institution designed to last.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -275,6 +325,126 @@
                             <h4 class="font-semibold mb-1">4. Follow Through Immediately</h4>
                             <p class="text-gray-600">Begin work on agreed-upon actions to demonstrate momentum and build confidence.</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Q&A Arsenal -->
+            <div class="timeline-item">
+                <div class="timeline-line"></div>
+                <div class="timeline-icon bg-blue-600 text-white"><i data-lucide="shield-question" class="w-4 h-4"></i></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Q&A Arsenal: Be Prepared</h2>
+                <div class="playbook-card p-6">
+                    <h3 class="font-bold text-lg mb-2">Anticipate and Prepare</h3>
+                    <p class="text-gray-600 mb-6">Use this section to prepare for the board's questions. Having thoughtful, data-backed answers ready demonstrates foresight and builds immense credibility.</p>
+                    
+                    <div class="space-y-4">
+                        <details class="group">
+                            <summary class="flex items-center justify-between cursor-pointer p-4 bg-gray-50 rounded-lg">
+                                <span class="font-semibold text-gray-700">Questions About Strategy & Vision</span>
+                                <i data-lucide="chevron-down" class="arrow-down transition-transform duration-300"></i>
+                            </summary>
+                            <div class="p-4 mt-2 bg-white border-l-2 border-blue-500 text-sm space-y-4">
+                                <div>
+                                    <p class="font-semibold">Q: Should this be purely professional, or should we include cultural/social networks?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "Our vision is holistic. As slide 4 shows, professional solidarity is one pillar, but shared culture is the glue that sustains trust and engagement. Successful diaspora networks like the Jewish model blend professional and cultural goals. Limiting ourselves would minimize our impact and alienate many."</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Q: How does this fit in with existing Armenian networks? Are we competing?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "We are not competing; we are empowering. Our comparative study on slide 25 shows a clear gap in professional utility. GAIN is a 'network of networks' designed to offer tools and visibility to existing organizations (slide 50), making them stronger. We are an integrator, not a competitor."</p>
+                                </div>
+                            </div>
+                        </details>
+
+                        <details class="group">
+                            <summary class="flex items-center justify-between cursor-pointer p-4 bg-gray-50 rounded-lg">
+                                <span class="font-semibold text-gray-700">Questions About Users & Engagement</span>
+                                <i data-lucide="chevron-down" class="arrow-down transition-transform duration-300"></i>
+                            </summary>
+                             <div class="p-4 mt-2 bg-white border-l-2 border-blue-500 text-sm space-y-4">
+                                <div>
+                                    <p class="font-semibold">Q: How will you make people join, and more importantly, how will you make them come back?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "We attract them by targeting specific community needs, as shown in our Engagement Framework on slide 38. We make them stay by creating a 'retention engine' (slide 39) that provides continuous value: career advancement, tangible impact through grants, exclusive cultural insights, and powerful community management tools for organizations."</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Q: What can you offer a specific community, like dentists or musicians?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "Slide 50 outlines this clearly. For a niche community like dentists, we offer a verified public page for visibility, access to mentors for students, grant opportunities for health projects, and a dedicated digital space for them to manage their own sub-community, all while being part of the larger GAIN ecosystem."</p>
+                                </div>
+                            </div>
+                        </details>
+                        
+                        <details class="group">
+                            <summary class="flex items-center justify-between cursor-pointer p-4 bg-gray-50 rounded-lg">
+                                <span class="font-semibold text-gray-700">Questions About Execution & MVP</span>
+                                <i data-lucide="chevron-down" class="arrow-down transition-transform duration-300"></i>
+                            </summary>
+                            <div class="p-4 mt-2 bg-white border-l-2 border-blue-500 text-sm space-y-4">
+                                <div>
+                                    <p class="font-semibold">Q: Why not just build our own custom platform from day one?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "That's a high-risk approach. Our analysis on slide 43 shows a custom platform is expensive and time-consuming. The prudent path is to use a cost-effective white-label solution for our MVP. This allows us to validate user needs and test features with real communities (slide 49) first, ensuring we build the *right* platform, not just *a* platform."</p>
+                                </div>
+                                 <div>
+                                    <p class="font-semibold">Q: What specific features will the MVP have?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "Our MVP strategy is two-fold. If we start with activities (Option 3, slide 48), the MVP is the programs themselves—Grants, Leadership Academy, Mentorship—to test demand. If we use a white-label platform, the MVP features will be core community tools: profiles, discussion boards, event calendars, and sub-groups to test engagement with our initial user base."</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Q: How are you thinking about the mentorship program? There are many models.</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "We've analyzed five distinct models, from a top-down Cascade to a peer-to-peer network (slides 30-35). Our platform will be flexible enough to support multiple models. We'll likely start with the 'Enhanced Cascade' (slide 32) for our pilot with ASOF, as it provides structure and quality control, and then expand to other models based on community needs."</p>
+                                </div>
+                            </div>
+                        </details>
+
+                        <details class="group">
+                            <summary class="flex items-center justify-between cursor-pointer p-4 bg-gray-50 rounded-lg">
+                                <span class="font-semibold text-gray-700">Tough Questions: Financial & Sustainability</span>
+                                <i data-lucide="chevron-down" class="arrow-down transition-transform duration-300"></i>
+                            </summary>
+                            <div class="p-4 mt-2 bg-white border-l-2 border-red-500 text-sm space-y-4">
+                                <div>
+                                    <p class="font-semibold">Q: This sounds expensive. What's the long-term funding model beyond this initial budget? How does this become self-sustaining?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "That's the critical long-term question. Our strategy is to first focus on creating indispensable value. Once GAIN becomes the central, undeniable hub for professional and community life, multiple funding avenues open up. This could include tiered partnership models for organizations seeking enhanced tools, philanthropic grants dedicated to specific programs like the Leadership Academy, and endowments from major supporters who see the long-term impact. The key is that sustainability follows value, not the other way around."</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Q: What is the ROI on this? Since we're not making money, how do we justify the ongoing cost?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "The ROI isn't financial; it's a 'Return on Impact.' We will measure success through KPIs that align with our mission: the number of mentorships created, the value of startups funded through connections made on GAIN, the number of cross-diaspora projects launched, and the career advancement of our members. This is an investment in our nation's human capital, and the return will be a stronger, more resilient, and more prosperous global Armenian community."</p>
+                                </div>
+                            </div>
+                        </details>
+                        
+                        <details class="group">
+                            <summary class="flex items-center justify-between cursor-pointer p-4 bg-gray-50 rounded-lg">
+                                <span class="font-semibold text-gray-700">Tough Questions: Scalability & Long-Term Vision</span>
+                                <i data-lucide="chevron-down" class="arrow-down transition-transform duration-300"></i>
+                            </summary>
+                            <div class="p-4 mt-2 bg-white border-l-2 border-red-500 text-sm space-y-4">
+                                <div>
+                                    <p class="font-semibold">Q: The 'Tipping Point' is a great theory, but what happens if we stall at 5% adoption? What's Plan B if organic growth doesn't materialize?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "This is a key risk, and our MVP is designed to address it. The Community Prioritization Matrix (slide 37) is our Plan B. If we find that one community, like tech entrepreneurs, is slow to adopt, our phased GTM allows us to pivot and focus our resources on another 'Prime Target' group, like healthcare professionals or AUA alumni, without changing our core strategy. The MVP is a search for this initial product-market fit. We won't scale until we find that fertile ground."</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Q: How do you prevent this from becoming another outdated platform in 5-7 years?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "By building a commitment to evolution into our DNA. This is why the 'Research and AI Learning Lab' (slide 22) is so crucial. It's not just a program; it's our R&D engine. It ensures we are constantly exploring the next frontier of AI, community building, and digital interaction. We are not just building a platform for today; we are building an institution that adapts to the technologies of tomorrow."</p>
+                                </div>
+                            </div>
+                        </details>
+
+                        <details class="group">
+                            <summary class="flex items-center justify-between cursor-pointer p-4 bg-gray-50 rounded-lg">
+                                <span class="font-semibold text-gray-700">Tough Questions: Governance & Control</span>
+                                <i data-lucide="chevron-down" class="arrow-down transition-transform duration-300"></i>
+                            </summary>
+                            <div class="p-4 mt-2 bg-white border-l-2 border-red-500 text-sm space-y-4">
+                                <div>
+                                    <p class="font-semibold">Q: Who 'owns' the network? How do we manage moderation, deal with political divisions, or handle bad actors on a global scale?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "This is one of the most serious operational challenges. Our approach is to start small and build a robust governance framework incrementally. During the MVP phase, we will work only with trusted, established partner communities like ASOF and AAMA (slide 49). This controlled environment will allow us to co-develop clear community guidelines, moderation protocols, and conflict resolution mechanisms before we open the platform to the wider public."</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Q: Giving grants is great, but how do we ensure accountability and prevent misuse of funds without creating a massive administrative burden?</p>
+                                    <p class="text-gray-600 mt-1"><strong>A:</strong> "Accountability is built into the grant program design from the start. As outlined on slides 17 and 18, our process includes 'Real-Time Impact Tracking,' 'Community Engagement & Transparency,' and 'Outcome Tracking & Impact Assessment.' We will leverage technology to create lightweight but effective reporting mechanisms, focusing on storytelling and community updates rather than cumbersome paperwork. This makes the process transparent and keeps the administrative overhead manageable."</p>
+                                </div>
+                            </div>
+                        </details>
+
                     </div>
                 </div>
             </div>
