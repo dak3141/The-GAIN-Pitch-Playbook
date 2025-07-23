@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAIN: The Visual Pitch Playbook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f4f5; /* Zinc 100 */
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 2.5rem; /* Space for line and icon */
+            padding-bottom: 3rem;
+        }
+        .timeline-item:last-child {
+            padding-bottom: 0;
+        }
+        .timeline-line {
+            position: absolute;
+            left: 12px; /* Center the line on the icon */
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #e4e4e7; /* Zinc 200 */
+        }
+        .timeline-icon {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 26px;
+            height: 26px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 9999px;
+            background-color: white;
+            border: 2px solid #e4e4e7;
+        }
+        .playbook-card {
+            background-color: white;
+            border: 1px solid #e4e4e7;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+            transition: box-shadow 0.3s ease;
+        }
+        .playbook-card:hover {
+             box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+        .card-section {
+            border-top: 1px solid #f4f4f5;
+            padding-top: 1rem;
+            margin-top: 1rem;
+        }
+        .section-heading {
+            display: flex;
+            align-items: center;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #3f3f46; /* Zinc 700 */
+            margin-bottom: 0.5rem;
+        }
+        .section-heading i {
+            width: 16px;
+            height: 16px;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 tracking-tighter">
+                The GAIN Pitch Playbook
+            </h1>
+            <p class="mt-4 max-w-3xl mx-auto text-lg text-gray-600">
+                A comprehensive, step-by-step guide to delivering a compelling business case for the Global Armenian Impact Network.
+            </p>
+        </div>
+
+        <!-- Timeline Starts -->
+        <div class="max-w-4xl mx-auto">
+
+            <!-- Phase 1: Pre-Pitch Prep -->
+            <div class="timeline-item">
+                <div class="timeline-line"></div>
+                <div class="timeline-icon bg-gray-800 text-white"><i data-lucide="clipboard-check" class="w-4 h-4"></i></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Phase 1: Pre-Pitch Preparation</h2>
+                <div class="playbook-card p-6">
+                    <h3 class="font-bold text-lg mb-2">The 90% of the Work</h3>
+                    <p class="text-gray-600 mb-4">Success is determined before you walk in the room. This is your checklist for building an unshakeable foundation.</p>
+                    <div class="grid sm:grid-cols-2 gap-4 text-sm">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-semibold mb-1">1. Know Your Audience</h4>
+                            <p class="text-gray-600">Map your board members: identify the champion, the skeptic, and the financial expert. Tailor points to their specific interests.</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-semibold mb-1">2. Define Your "One-Sentence Ask"</h4>
+                            <p class="text-gray-600">Be crystal clear about what you want. Example: "We request approval for a 6-month MVP phase with a budget of [X]."</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-semibold mb-1">3. Build Your "Proof Arsenal"</h4>
+                            <p class="text-gray-600">Have your data ready (surveys, benchmarks) to deploy as evidence when questions arise.</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-semibold mb-1">4. Rehearse & Pressure Test</h4>
+                            <p class="text-gray-600">Conduct a dry run with a friendly audience, then a "Red Team" session with tough questions. Time your pitch to 15-20 mins.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Pitch Narrative Starts -->
+            <div class="timeline-item">
+                <div class="timeline-line"></div>
+                <div class="timeline-icon bg-red-600 text-white"><i data-lucide="presentation" class="w-4 h-4"></i></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Phase 2: The Pitch Narrative (Delivery)</h2>
+            </div>
+            
+            <!-- Step 1-6 Cards -->
+            <div class="space-y-8">
+                <!-- Step 1: The Hook -->
+                <div class="timeline-item ml-0 sm:ml-8">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-icon bg-red-100 text-red-700"><i data-lucide="lightbulb" class="w-4 h-4"></i></div>
+                    <h3 class="text-xl font-bold text-red-700 mb-2">Step 1: The Hook (The "What If...")</h3>
+                    <div class="playbook-card p-6">
+                        <div class="card-section !border-t-0 !pt-0 !mt-0">
+                            <div class="section-heading"><i data-lucide="megaphone"></i>Pitcher's Action</div>
+                            <p class="text-gray-600 text-sm">Start with the inspiring vision, not the agenda. Capture their imagination by painting a picture of a connected, empowered future. Sell the destination before showing the map.</p>
+                        </div>
+                        <div class="card-section">
+                            <div class="section-heading"><i data-lucide="rocket"></i>Startup Framing</div>
+                            <p class="text-gray-600 text-sm">This is the **Vision Sale**. You are selling the massive potential and the inspiring future state. Great startups sell a compelling vision first.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2: The Problem -->
+                <div class="timeline-item ml-0 sm:ml-8">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-icon bg-red-100 text-red-700"><i data-lucide="alert-triangle" class="w-4 h-4"></i></div>
+                    <h3 class="text-xl font-bold text-red-700 mb-2">Step 2: The Problem (The "Why Now?")</h3>
+                    <div class="playbook-card p-6">
+                        <div class="card-section !border-t-0 !pt-0 !mt-0">
+                            <div class="section-heading"><i data-lucide="megaphone"></i>Pitcher's Action</div>
+                            <p class="text-gray-600 text-sm">Frame fragmentation as untapped potential and establish urgency. The cost of inaction is leaving our greatest asset—collective intelligence—on the table.</p>
+                        </div>
+                        <div class="card-section">
+                            <div class="section-heading"><i data-lucide="rocket"></i>Startup Framing</div>
+                            <p class="text-gray-600 text-sm">Define the **Market Opportunity**. Show the scale with the **Total Addressable Market** (Global Armenian Nation) and your focus with the **Serviceable Addressable Market** (key professional/student groups).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3: The Solution -->
+                <div class="timeline-item ml-0 sm:ml-8">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-icon bg-red-100 text-red-700"><i data-lucide="puzzle" class="w-4 h-4"></i></div>
+                    <h3 class="text-xl font-bold text-red-700 mb-2">Step 3: The Solution (The "How")</h3>
+                    <div class="playbook-card p-6">
+                        <div class="card-section !border-t-0 !pt-0 !mt-0">
+                            <div class="section-heading"><i data-lucide="megaphone"></i>Pitcher's Action</div>
+                            <p class="text-gray-600 text-sm">Position GAIN as the elegant "network of networks"—an integrator, not a competitor. Introduce the platform as the powerful engine for this ecosystem.</p>
+                        </div>
+                        <div class="card-section">
+                            <div class="section-heading"><i data-lucide="help-circle"></i>Critical Questions to Address</div>
+                            <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                                <li>Is this truly a unique idea? (Answer: Yes, we are an integrator).</li>
+                                <li>Why is AIFA the right organization to lead this? (Answer: Credibility, reach, long-term mission).</li>
+                            </ul>
+                        </div>
+                        <div class="card-section">
+                            <div class="section-heading"><i data-lucide="rocket"></i>Startup Framing</div>
+                            <p class="text-gray-600 text-sm">Define the **Product**. GAIN is a **multi-sided platform** whose value increases for everyone as more users join, creating powerful network effects.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4: Value Proposition -->
+                <div class="timeline-item ml-0 sm:ml-8">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-icon bg-red-100 text-red-700"><i data-lucide="gem" class="w-4 h-4"></i></div>
+                    <h3 class="text-xl font-bold text-red-700 mb-2">Step 4: The Value (The "What's In It For Them?")</h3>
+                    <div class="playbook-card p-6">
+                        <div class="card-section !border-t-0 !pt-0 !mt-0">
+                            <div class="section-heading"><i data-lucide="megaphone"></i>Pitcher's Action</div>
+                            <p class="text-gray-600 text-sm">Speak to the "Why," not just the "What." Connect every feature to a core human need for connection, growth, or contribution. Show tangible value for each user type.</p>
+                        </div>
+                         <div class="card-section">
+                            <div class="section-heading"><i data-lucide="rocket"></i>Startup Framing</div>
+                            <p class="text-gray-600 text-sm">Explain the **Business Model**. It's based on creating a virtuous cycle of value through **Network Effects**, making the platform more powerful and self-sustaining over time.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 5: Strategic Plan -->
+                <div class="timeline-item ml-0 sm:ml-8">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-icon bg-red-100 text-red-700"><i data-lucide="map" class="w-4 h-4"></i></div>
+                    <h3 class="text-xl font-bold text-red-700 mb-2">Step 5: The Strategy (The "How We'll Win")</h3>
+                    <div class="playbook-card p-6">
+                        <div class="card-section !border-t-0 !pt-0 !mt-0">
+                            <div class="section-heading"><i data-lucide="megaphone"></i>Pitcher's Action</div>
+                            <p class="text-gray-600 text-sm">Build confidence by presenting a smart, phased, data-driven plan. Explain the "Tipping Point" strategy to show you have a clear path to sustainable growth.</p>
+                        </div>
+                        <div class="card-section">
+                            <div class="section-heading"><i data-lucide="help-circle"></i>Critical Questions to Address</div>
+                            <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                                <li>How will you measure success in the first year? (Answer: Focus on learning KPIs from the MVP).</li>
+                                <li>What are the top 3 risks? (Answer: User adoption, tech hurdles, competition for attention - and your mitigations).</li>
+                            </ul>
+                        </div>
+                        <div class="card-section">
+                            <div class="section-heading"><i data-lucide="rocket"></i>Startup Framing</div>
+                            <p class="text-gray-600 text-sm">Detail the **Go-to-Market (GTM) Strategy** (Beachhead -> Expansion) and the **Competitive Moat** (Network Effects, Data, Trust, Holistic Approach).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 6: The Ask -->
+                <div class="timeline-item ml-0 sm:ml-8">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-icon bg-green-600 text-white"><i data-lucide="target" class="w-4 h-4"></i></div>
+                    <h3 class="text-xl font-bold text-green-700 mb-2">Step 6: The Ask (The "Recommendation")</h3>
+                    <div class="playbook-card p-6 border-2 border-green-600">
+                        <div class="card-section !border-t-0 !pt-0 !mt-0">
+                            <div class="section-heading"><i data-lucide="megaphone"></i>Pitcher's Action</div>
+                            <p class="text-gray-600 text-sm">Make a clear, decisive, and confident recommendation. Don't just present options. State your "One-Sentence Ask" for the MVP phase and initial budget.</p>
+                        </div>
+                        <div class="card-section">
+                            <div class="section-heading"><i data-lucide="help-circle"></i>Critical Questions to Address</div>
+                            <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                                <li>What if your assumptions are wrong? (Answer: That's why we're doing an MVP - to test and learn).</li>
+                                <li>Do we have the right team/resources? (Answer: We have the vision; the ask includes resources for technical execution).</li>
+                            </ul>
+                        </div>
+                        <div class="card-section">
+                            <div class="section-heading"><i data-lucide="rocket"></i>Startup Framing</div>
+                            <p class="text-gray-600 text-sm">This is the **Call to Action**. In a startup pitch, this is where you ask for the investment. Here, you are asking for the board's investment of trust, approval, and initial resources.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 3: Post-Pitch -->
+            <div class="timeline-item">
+                <div class="timeline-line"></div>
+                <div class="timeline-icon bg-gray-800 text-white"><i data-lucide="message-square" class="w-4 h-4"></i></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Phase 3: Q&A and Follow-Up</h2>
+                <div class="playbook-card p-6">
+                    <h3 class="font-bold text-lg mb-2">The Conversation & The Close</h3>
+                    <p class="text-gray-600 mb-4">The pitch doesn't end when you stop talking. Secure your success through a masterful Q&A and professional follow-up.</p>
+                    <div class="grid sm:grid-cols-2 gap-4 text-sm">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-semibold mb-1">1. Welcome Questions</h4>
+                            <p class="text-gray-600">Frame the Q&A as a discussion, not a defense. Use phrases like, "That's an excellent question..."</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-semibold mb-1">2. Use the "Bridge" Technique</h4>
+                            <p class="text-gray-600">Answer tough questions briefly, then "bridge" back to a core message of your pitch.</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-semibold mb-1">3. Send a Summary Email</h4>
+                            <p class="text-gray-600">Within 24 hours, send a concise email reiterating the "Ask" and summarizing key decisions and action items.</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-semibold mb-1">4. Follow Through Immediately</h4>
+                            <p class="text-gray-600">Begin work on agreed-upon actions to demonstrate momentum and build confidence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Timeline Ends -->
+
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
